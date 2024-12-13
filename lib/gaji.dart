@@ -26,7 +26,7 @@ class Gaji {
 
     // Logika tunjangan berdasarkan status menikah atau belum menikah
     if (status == "Menikah") {
-      tunjangan += 100000;
+      tunjangan += 1000000;
     } else if (status == "Belum Menikah") {
       tunjangan += 500000;
     }
